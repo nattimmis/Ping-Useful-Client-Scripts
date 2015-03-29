@@ -1,7 +1,7 @@
 # ping-scripts
 Scripts for Ping Identities products
 
-### Scripts
+## Scripts
 
-# db-log-import
-* auditToMySQL - import audit logs from text file to MySQL database
+## db-log-import
+* **auditToMySQL** - import audit logs from text file to MySQL database
