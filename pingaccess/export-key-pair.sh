@@ -11,7 +11,7 @@
 ###################################################################################
 
 
-PABASE=https://localhost:9001
+PABASE=https://localhost:9000
 USERNAME=Administrator
 PASSWORD=2Federate
 
@@ -31,6 +31,6 @@ JSON`
 		echo ${FLAGS} | xargs curl ${PABASE}/pa-admin-api/v2/keyPairs
 		;;
 	*)
-		echo "Usage: $0 [ list | export <id> <password> ]"
+		echo "Usage: $0 [ list | export <id> <password> <file name> ]"
 esac
 
